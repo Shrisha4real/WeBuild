@@ -1,0 +1,112 @@
+.login
+{
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ display: flex;
+ border: 1px solid #D6D6D6 ;
+ box-shadow: -1px -1px inset #D6D6D6;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ height: 440px;
+ width: 480px;
+ border-radius: 26px;
+ box-sizing: border-box;
+ padding: 30px;
+ justify-content: space-between;
+ background-color:#FFFFFF;
+} 
+.box
+{
+    
+    border: solid black 3px;
+    margin: 8px;
+    width: 100%;
+    height: 55px;
+}
+.heading
+{   
+    display:inline-block;
+    margin-top: 4px;
+    margin-bottom: 50px;
+    /* margin-top: 15px; */
+    /* padding: 10px; */
+    height: auto;
+    align-items:flex-start;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.login-head
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:top;
+    border-color: #FFFFFF;
+    
+}
+#login-image{
+    margin-top: 15px;
+}
+.enter-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    width: 100%;
+    color:#B0A9A9 ;    
+}
+.enter-info .box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: flex-start;
+    border: 1px solid #D6D6D6 ;
+    box-shadow: -1px -1px inset #D6D6D6;
+    background-color:#FFFFFF;
+    padding-left: 6px ;
+    border-radius: 10px;
+}
+.login .enter-info #forgot-password
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: flex-start;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.continue
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color:#0016DF ;
+    border: #0016DF;
+    box-shadow: -1px -1px inset #D6D6D6;
+
+
+}
+#forgot , #continue
+{
+    text-decoration: none;
+
+}
+#forgot
+{
+    color:#B0A9A9 ;    
+}
+#continue
+{
+    color: #FFFFFF;  
+    
+}
+/*lot of optimisation to be made*/
